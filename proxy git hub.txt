@@ -1,5 +1,0 @@
-git config --global --add remote.origin.proxy "http://172.16.78.1:3128"
-
-
-mkdir //criar pasta
-cd //abrir pasta
