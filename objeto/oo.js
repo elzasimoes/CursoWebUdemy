@@ -20,3 +20,5 @@ objeto.processamento()
 // Principíos importantes
 // Abstração
 // Encapsulamento
+// Herança
+// Polimorfismo
