@@ -1,7 +1,4 @@
 const fs = require('fs')
-
-//sincrono
-
 const caminho = __dirname + '/arquivo.json'
 
 //sincrono
