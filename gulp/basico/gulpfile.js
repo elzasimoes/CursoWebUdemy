@@ -5,7 +5,10 @@ gulp.task('default', () =>{
 })
 
 gulp.task('copiar', ['antes1'], ['antes2'], () =>{
-    gulp.src()
+    gulp.src(['pastaA/arquivo1.txt', 'pastaA/arquivo2.txt'])
+        // .pipe(transformacao1())
+        // .pipe(transformacao2())
+        .pipe(gulp.dest('pastaB'))
 })
 
 gulp.task('antes1', () => {
